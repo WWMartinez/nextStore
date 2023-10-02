@@ -20,6 +20,11 @@ export function MainNav({
             active: pathname === `/${params.storeId}`,
         },
         {
+            href:`/${params.storeId}/billboards`,
+            label: 'Publicidad',
+            active: pathname === `/${params.storeId}/billboard`,
+        },
+        {
             href:`/${params.storeId}/settings`,
             label: 'Configuración',
             active: pathname === `/${params.storeId}/settings`,
