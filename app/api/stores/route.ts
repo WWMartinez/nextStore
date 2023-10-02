@@ -27,8 +27,7 @@ export async function POST (
             }
         });
 
-        return NextResponse.json(store);
-        
+    return NextResponse.json(store);        
     } catch (err) {
         console.log('[STORES_POST]', err);
         return new NextResponse("Error Interno", { status: 500 });

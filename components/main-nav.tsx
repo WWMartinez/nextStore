@@ -22,8 +22,13 @@ export function MainNav({
         {
             href:`/${params.storeId}/billboards`,
             label: 'Publicidad',
-            active: pathname === `/${params.storeId}/billboard`,
+            active: pathname === `/${params.storeId}/billboards`,
         },
+        {
+            href:`/${params.storeId}/categories`,
+            label: 'Categorías',
+            active: pathname === `/${params.storeId}/categories`,
+        },        
         {
             href:`/${params.storeId}/settings`,
             label: 'Configuración',
